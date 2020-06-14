@@ -1,0 +1,30 @@
+.table {
+    &:not(:last-child) {
+        margin-bottom: $gutter-vertical;
+        
+        @include respond(tab-port) { 
+            margin-bottom: $gutter-vertical-small;
+        } 
+    }
+
+    @include clearfix; 
+
+    [class^="column"] {
+        float: left;
+        &:not(:last-child) {
+            // margin-right: $gutter-horizontal;
+
+            @include respond(tab-port) { 
+                margin-bottom: $gutter-vertical-small;
+            } 
+        }
+
+        @include respond(tab-port) { 
+            width: 100% !important;
+        } 
+    }
+
+    .column {
+        width: calc((100% ) / 2);
+    }
+}

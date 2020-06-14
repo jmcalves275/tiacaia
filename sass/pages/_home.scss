@@ -1,0 +1,11 @@
+.section-menu {
+    background-color: $color-grey-light;
+    height: 100vh;
+
+    &__picture {
+        background-image: url("../../img/carne.jpg");
+        background-size: cover;
+        background-position: top;
+        height: 100vh;
+    }
+} 

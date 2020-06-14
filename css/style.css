@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Dejavu Sans';
+    src: url('fonts/dejavusans-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/dejavusans-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/dejavusans-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Dejavu Extralight Sans';
+    src: url('fonts/dejavusans-extralight-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/dejavusans-extralight-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/dejavusans-extralight-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+body {
+    font-family: "Dejavu Sans", sans-serif;
+    font-weight: 300;
+    
+    line-height: 1.7;
+}

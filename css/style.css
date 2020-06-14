@@ -1,20 +1,80 @@
-@font-face {
-    font-family: 'Dejavu Sans';
-    src: url('fonts/dejavusans-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-         url('fonts/dejavusans-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('fonts/dejavusans-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
 
-@font-face {
-    font-family: 'Dejavu Extralight Sans';
-    src: url('fonts/dejavusans-extralight-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-         url('fonts/dejavusans-extralight-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('fonts/dejavusans-extralight-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-}
+html {
+  font-size: 62.5%; }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
-    font-family: "Dejavu Sans", sans-serif;
-    font-weight: 300;
-    
-    line-height: 1.7;
-}
+  box-sizing: border-box; }
+  @media (max-width: 56.25em) {
+    body {
+      padding: 0; } }
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #353535; }
+
+.btn-text:link, .btn-text:visited {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  padding: 3px;
+  transition: all .2s; }
+
+.btn-text:hover {
+  background-color: #F2F2F2;
+  color: #353535;
+  box-shadow: 0 1.5rem 2rem rgba(53, 53, 53, 0.4);
+  transform: translateY(-2px); }
+
+.btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0); }
+
+.header {
+  height: 100vh;
+  background-image: url("../../img/carne.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative; }
+  @media (max-width: 37.5em) {
+    .header {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
+  .header__logo-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .header__logo {
+    height: 25rem;
+    float: left; }
+  .header__text {
+    float: right;
+    padding: 1rem; }
+  .header__list {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    list-style: none; }
+  .header__link {
+    text-transform: uppercase;
+    font-size: 2.5rem; }

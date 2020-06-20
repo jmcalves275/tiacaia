@@ -1,11 +1,56 @@
-.section-menu {
+.section-conceito {
     background-color: $color-grey-light;
     height: 100vh;
 
     &__picture {
-        background-image: url("../../img/carne.jpg");
+        background-image: url("../../img/bacalhau.jpg");
+        // background-color: red;
+        box-shadow: 0 1.5rem 3rem rgba($color-black, 0.3);
         background-size: cover;
         background-position: top;
         height: 100vh;
     }
 } 
+
+.section-menu {
+    background-color: $color-grey-light;
+    height: 100vh;
+
+    &__picture {
+        background-image: url("../../img/chambao.jpg");
+        // background-color: red;
+        box-shadow: 0 1.5rem 3rem rgba($color-black, 0.3);
+        background-size: cover;
+        background-position: top;
+        height: 100vh;
+    }
+}
+
+.section-reservas {
+    background-color: $color-grey-light;
+    height: 100vh;
+
+    &__picture {
+        background-image: url("../../img/linguas.jpg");
+        // background-color: red;
+        box-shadow: 0 1.5rem 3rem rgba($color-black, 0.3);
+        background-size: cover;
+        background-position: top;
+        height: 100vh;
+    }
+}
+
+.section-contactos {
+    background-color: $color-grey-light;
+    height: 100vh;
+
+    &__picture {
+        background-image: url("../../img/carne.jpg");
+        // background-color: red;
+        box-shadow: 0 1.5rem 3rem rgba($color-black, 0.3);
+        background-size: cover;
+        background-position: top;
+        height: 100vh;
+    }
+}
+

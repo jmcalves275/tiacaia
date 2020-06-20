@@ -1,19 +1,9 @@
 .table {
-    &:not(:last-child) {
-        margin-bottom: $gutter-vertical;
-        
-        @include respond(tab-port) { 
-            margin-bottom: $gutter-vertical-small;
-        } 
-    }
-
     @include clearfix; 
 
     [class^="column"] {
         float: left;
         &:not(:last-child) {
-            // margin-right: $gutter-horizontal;
-
             @include respond(tab-port) { 
                 margin-bottom: $gutter-vertical-small;
             } 
@@ -27,4 +17,21 @@
     .column {
         width: calc((100% ) / 2);
     }
+
+    &__text {
+        position: relative;   
+        height: 100vh;
+    }
+
+    &__box {
+        position: absolute;
+        text-align: justify;
+        top: 50%;
+        left: 44%;
+        margin-left: 1rem;
+        transform: translate(-50%, -50%);      
+        width: 75%;  
+        padding: 1rem;
+    }
 }
+

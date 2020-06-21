@@ -1,4 +1,9 @@
 .btn {
+    margin-bottom: 5px;
+    &:not(:last-child) {
+        margin-right: 15px;
+    }
+
     &,
     &:link,
     &:visited {
@@ -21,7 +26,6 @@
     &:hover {
         background-color: $color-grey-dark;
         color: $color-grey-light;
-        box-shadow: 0 1.5rem 2rem rgba($color-black, 0.2);
 
         &::after { 
             transform: scale(1.5);

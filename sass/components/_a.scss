@@ -1,0 +1,9 @@
+a{
+    &,
+    &:link,
+    &:visited {
+        text-decoration: none;
+        cursor: pointer;
+        color: $color-grey-dark;
+    }
+}

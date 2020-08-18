@@ -291,7 +291,7 @@ a, a:link, a:visited {
 
 .header {
   height: 100vh;
-  background-image: url("../../img/polvo.jpg");
+  background-image: url("../img/polvo.jpg");
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -390,7 +390,7 @@ a, a:link, a:visited {
   background-color: #F2F2F2;
   height: 100vh; }
   .section-conceito__picture {
-    background-image: url("../../img/bacalhau.jpg");
+    background-image: url("../img/bacalhau.jpg");
     box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.3);
     background-size: cover;
     background-position: top;
@@ -400,7 +400,7 @@ a, a:link, a:visited {
   background-color: #F2F2F2;
   height: 100vh; }
   .section-menu__picture {
-    background-image: url("../../img/chambao.jpg");
+    background-image: url("../img/chambao.jpg");
     box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.3);
     background-size: cover;
     background-position: top;
@@ -410,7 +410,7 @@ a, a:link, a:visited {
   background-color: #F2F2F2;
   height: 100vh; }
   .section-reservas__picture {
-    background-image: url("../../img/linguas.jpg");
+    background-image: url("../img/linguas.jpg");
     box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.3);
     background-size: cover;
     background-position: top;
@@ -420,7 +420,7 @@ a, a:link, a:visited {
   background-color: #F2F2F2;
   height: 100vh; }
   .section-contactos__picture {
-    background-image: url("../../img/carne.jpg");
+    background-image: url("../img/carne.jpg");
     box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.3);
     background-size: cover;
     background-position: top;

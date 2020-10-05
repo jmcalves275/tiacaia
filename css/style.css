@@ -306,6 +306,9 @@ a, a:link, a:visited {
   .header__text {
     float: right;
     padding: 1rem; }
+  @media (max-width: 37.5em) {
+    .header__item {
+      display: inline; } }
   .header__list {
     position: absolute;
     top: 50%;

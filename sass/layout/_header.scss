@@ -15,12 +15,20 @@
     &__logo {
         height: 25rem;
         float: left;
-    }    
-
+    }  
+    
     &__text {
         float: right;
         padding: 1rem;
     }
+
+    @include respond(phone) { 
+        &__item {
+            display: inline;
+        }
+     
+    } 
+    
 
     &__list {
         position: absolute;
